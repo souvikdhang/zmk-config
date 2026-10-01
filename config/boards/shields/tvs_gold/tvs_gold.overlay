@@ -1,6 +1,18 @@
-//#include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/matrix_transform.h>
 
-// numpad.overlay
 / {
+    chosen {
+        zmk,matrix-transform = &default_transform;
+    };
 
+    default_transform: matrix_transform {
+        compatible = "zmk,matrix-transform";
+        rows = <2>;
+        columns = <2>;
+
+        map = <
+            RC(0, 0) RC(0, 1)
+            RC(1, 0) RC(1, 1)
+        >;
+    };
 };
