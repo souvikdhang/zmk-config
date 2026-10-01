@@ -15,7 +15,7 @@
 
             >;
         };
-        base_layer {
+        bt_layer {
             bindings = <
                 &bootloader     &mo 1
                 &bt BT_SEL 0     &bt BT_CLEAR
