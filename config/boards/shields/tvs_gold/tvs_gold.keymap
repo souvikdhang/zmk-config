@@ -3,14 +3,25 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+
     keymap {
         compatible = "zmk,keymap";
 
+        // This is a sample keymap intended to be replaced with your own
         base_layer {
             bindings = <
-                &none &none
-                &none &none
+                &kp Q     &mo 1
+                &kp A     &kp S
+
             >;
         };
+        bt_layer {
+            bindings = <
+                &bootloader     &mo 1
+                &bt BT_SEL 0     &bt BT_CLR
+
+            >;
+        };
+
     };
 };
