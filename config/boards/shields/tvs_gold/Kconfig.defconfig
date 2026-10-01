@@ -1,0 +1,6 @@
+if SHIELD_TVS_GOLD
+
+config ZMK_KEYBOARD_NAME
+    default "tvs_gold"
+
+endif
