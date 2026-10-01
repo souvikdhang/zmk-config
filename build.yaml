@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: promicro_nrf52840
+  - board: nice_nano_v2
     shield: tvs_gold
