@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-/delete-node/ &ext_power;
+/delete-node/ &EXT_POWER;
 
 / {
     
