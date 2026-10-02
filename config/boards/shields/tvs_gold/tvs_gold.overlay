@@ -19,10 +19,3 @@
         >;
     };
 };
-
-/ {
-    EXT_POWER {
-        status = "disabled";
-        /delete-property/ control-gpios;
-    };
-};
