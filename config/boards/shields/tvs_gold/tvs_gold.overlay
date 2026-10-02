@@ -19,7 +19,9 @@
     };
 };
 
-&ext_power {
-    status = "disabled";
-    control-gpios = <>;
+/ {
+    ext_power {
+        status = "disabled";
+        control-gpios = <>;
+    };
 };
