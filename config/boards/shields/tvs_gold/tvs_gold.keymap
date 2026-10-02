@@ -3,18 +3,15 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    ext-power {
-        status = "disabled";
-    };
-    
+
     keymap {
         compatible = "zmk,keymap";
 
         base_layer {
             bindings = <
-                &none &none
-                &none &none
-            >;
+                &ext_power EP_ON  &ext_power EP_OFF
+                &ext_power EP_TOG &none
+>;
         };
     };
 };
