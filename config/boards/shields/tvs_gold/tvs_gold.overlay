@@ -1,8 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-/delete-node/ &EXT_POWER;
+
 
 / {
-    
+    /delete-node/ &EXT_POWER;
     chosen {
         zmk,matrix-transform = &default_transform;
     };
