@@ -5,6 +5,7 @@
 / {
 
     keymap {
+        zmk,kscan = &kscan0;
         compatible = "zmk,keymap";
 
         // This is a sample keymap intended to be replaced with your own
