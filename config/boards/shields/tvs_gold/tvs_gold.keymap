@@ -3,6 +3,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    ext-power {
+        status = "disabled";
+    };
+    
     keymap {
         compatible = "zmk,keymap";
 

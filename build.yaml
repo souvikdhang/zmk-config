@@ -19,5 +19,7 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
+  # - board: seeeduino_xiao_ble
+
+  - board: nice_nano_v2
     shield: tvs_gold
