@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 / {
 
@@ -11,7 +12,7 @@
             bindings = <
                 &ext_power EP_ON  &ext_power EP_OFF
                 &ext_power EP_TOG &none
->;
+            >;
         };
     };
 };
