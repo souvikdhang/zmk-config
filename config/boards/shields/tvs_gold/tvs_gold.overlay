@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-/delete-node/ &EXT_POWER;
 
 / {
     
@@ -18,5 +17,12 @@
             RC(0, 0) RC(0, 1)
             RC(1, 0) RC(1, 1)
         >;
+    };
+};
+
+/ {
+    EXT_POWER {
+        status = "disabled";
+        /delete-property/ control-gpios;
     };
 };
