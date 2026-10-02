@@ -20,7 +20,7 @@
 };
 
 / {
-    ext_power {
+    EXT_POWER {
         status = "disabled";
         control-gpios = <>;
     };
