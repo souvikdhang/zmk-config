@@ -5,10 +5,7 @@
         zmk,matrix-transform = &default_transform;
     };
 
-    &ext_power {
-        status = "disabled";
-        control-gpios = <>;
-    };
+
 
     default_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
@@ -20,4 +17,9 @@
             RC(1, 0) RC(1, 1)
         >;
     };
+};
+
+&ext_power {
+    status = "disabled";
+    control-gpios = <>;
 };
