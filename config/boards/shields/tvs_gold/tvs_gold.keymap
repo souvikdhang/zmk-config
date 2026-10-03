@@ -8,13 +8,11 @@
         zmk,kscan = &kscan0;
         compatible = "zmk,keymap";
 
-        // This is a sample keymap intended to be replaced with your own
         base_layer {
             bindings = <
                 &kp Q     &mo 1
-                &ext_power EP_ON     &ext_power EP_OFF
-
-            >;
+                &EXT_POWER EP_ON     &EXT_POWER EP_OFF
+           >;
         };
         bt_layer {
             bindings = <
