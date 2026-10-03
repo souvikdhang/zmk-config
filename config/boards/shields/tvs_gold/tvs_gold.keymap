@@ -12,7 +12,7 @@
         base_layer {
             bindings = <
                 &kp Q     &mo 1
-                &kp A     &kp S
+                &ext_power EP_ON     &ext_power EP_OFF
 
             >;
         };
