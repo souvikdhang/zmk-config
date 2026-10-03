@@ -23,5 +23,5 @@ include:
 
   - board: nice_nano_v2
     shield: tvs_gold
-    cmake-args: -DCONFIG_BOARD_ENABLE_DCDC=n
+    # cmake-args: -DCONFIG_BOARD_ENABLE_DCDC=n
 #-DCONFIG_ZMK_EXT_POWER=n 
